@@ -1,6 +1,7 @@
 CC = gbdk/bin/lcc -Wa-l -Wl-m -Wl-j
 
-BINS = test.gb
+BINS = test.gb \
+	input.gb
 
 all:	$(BINS)
 
