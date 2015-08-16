@@ -2,7 +2,8 @@ CC = gbdk/bin/lcc -Wa-l -Wl-m -Wl-j
 
 BINS = test.gb \
 	input.gb \
-	sprite.gb
+	sprite.gb \
+	Robot.gb
 
 all:	$(BINS)
 
